@@ -9,14 +9,8 @@ body a{
 	-ms-transition:0.5s all;
 }
 
-.d1{
-	padding: 0.5em 1.5em
-}
 
-.slides{
-	align-self: right;
-}
-
+/*main image at the top*/
 .banner{
 	background: url(../new1.jpg) center 0 repeat;
 	background-size: cover;
@@ -28,10 +22,12 @@ body a{
 	text-align:center;
 }
 
-#p1{
+/*for text below logo*/
+#pg1{
 	color: white;
 }
 
+/*can be removed depending on template*/
 .header{
 	padding: 0.5em 1.5em;
 }
@@ -125,46 +121,14 @@ body a{
 	color:#ffffff;
 	}
 .head-nav ul li.active a{
-	color:#5eb703;
+	color:#228B22;
 }
 .footer-nav ul li.active a{
-	color:#5eb703;
+	color:#000000;
 }
+/*till here it can be changed*/
 
-/* Effect 1: Brackets */
-.cl-effect-1 a::before,
-.cl-effect-1 a::after {
-	display: inline-block;
-	opacity: 0;
-	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
-	-moz-transition: -moz-transform 0.3s, opacity 0.2s;
-	transition: transform 0.3s, opacity 0.2s;
-}
-.cl-effect-1 a::before {
-	margin-right: 10px;
-	content: '{';
-	-webkit-transform: translateX(20px);
-	-moz-transform: translateX(20px);
-	transform: translateX(20px);
-}
-.cl-effect-1 a::after {
-	margin-left: 10px;
-	content: '}';
-	-webkit-transform: translateX(-20px);
-	-moz-transform: translateX(-20px);
-	transform: translateX(-20px);
-}
-.cl-effect-1 a:hover::before,
-.cl-effect-1 a:hover::after,
-.cl-effect-1 a:focus::before,
-.cl-effect-1 a:focus::after {
-	opacity: 1;
-	-webkit-transform: translateX(0px);
-	-moz-transform: translateX(0px);
-	transform: translateX(0px);
-}
-
-
+/*dont change now*/
 .logo {
 	position:fixed;
 	top:0;
@@ -218,25 +182,11 @@ color: #000000;
 	text-align: right;
 }
 
-.contact_info{
-	padding: 0.5em 1.5em;
-}
-
-.contact_media {
-	float: right;
-	margin-left: 4%;
-	width: 35.3333%;
-}
 
 .col.span_1_of_2 h2{
 	margin-bottom: 4%;
 }
 
-.i1{
-	height: 50px;
-	width: 50px;
-	border-radius: 5px;
-}
 
 .generation {
 	box-shadow:  1px 1px 7px 1px #E3E3E3;
@@ -292,6 +242,8 @@ color: #000000;
 	text-transform:uppercase;
 	text-align:center;
 }
+
+
 span {
 	font-size: 1.1em;
 	color: #02112c;
@@ -377,7 +329,7 @@ span {
 	text-align:center;
 }
 .footer a {
-	color: #70dd00;
+	color: #000000;
 }
 .footer a:hover{
 	color: #fff;
@@ -385,12 +337,15 @@ span {
 
 
 .footer{
-	background: #02112c;
+	background: #000000;
 	padding: 1em 0em 1em;
 	margin: 0;
 }
 
-/*--responsive design--*/
+
+
+/*dont change anything after this*/
+/*--responsive design for mobiles--*/
 @media (max-width:1024px){
 .head-nav {
 	padding: 1.5em 0em;
