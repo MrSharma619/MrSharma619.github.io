@@ -9,6 +9,19 @@ body a{
 	-ms-transition:0.5s all;
 }
 
+.i1{
+	float: right;
+	border-radius: 10px;
+	height:100px;
+	width: 100px;
+	
+}
+
+.contact_media{
+	float: right;
+	margin-right: 150px;
+}
+
 
 /*main image at the top*/
 .banner{
